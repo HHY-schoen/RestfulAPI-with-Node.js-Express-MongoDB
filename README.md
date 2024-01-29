@@ -2,8 +2,10 @@
 build a RESTful CRUD API with Node.js, Express and MongoDB
 - npm init -y : -y 代表全部使用預設的值
 - npm i express : install express framework  ( after downlaod you will see the module on sidebar )
-- npm i nodemon : install nodemon ( automatically restarting the node application when file changes, can install globally ( -g ) or depth dependency ( -d ) )
+- npm i nodemon : install nodemon ( automatically restarting the node application when file changes )
+  > can install globally ( -g ) or depth dependency ( -d ) 
 - npm run dev
+
 
 - git init : manage git
 - git add . : add every files in git
@@ -12,11 +14,18 @@ build a RESTful CRUD API with Node.js, Express and MongoDB
 create .gitignore file, cause we don't want to save everything in git.
 
 
-## Connect app with database
+1. Connect app with database
 use **Mongoose** package to connect our node.js to mongodb.
 - npm i mongoose : install mongoose
 
-  
+2. Create a model for data in database
+3. Use a model to save data in MongoDB (specify middleware)
+4. Fetch or get data from database
+5. Updata or edit data in database
+6. Remove or delete from database
+
+
+
 ------
 refer
 - npm.com : https://www.npmjs.com/
